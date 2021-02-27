@@ -1,0 +1,68 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.container{
+  min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+ 
+
+}
+.buffer{
+  height: 10rem;
+}
+
+hr{
+  border-color:teal;
+  border-width: 4px;
+  max-width: 120px;
+}
+
+h1{
+
+  color: #ffffff
+}
+
+
+.btn{
+  border-radius: 70px;
+  font-weight: 700;
+
+}
+
+.btn-mine{
+
+  padding: 1em 2em;
+  background-color: black;
+  border-color: rgb(51, 50, 50);
+}
+.btn-mine:hover{
+  background-color: rgb(51, 50, 50);
+  border-color: rgb(51, 50, 50);;
+  border-width: 5px;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: teal;
+  border-color: teal;
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: #009688;
+}
+
+
+.animate__animated.animate__fadeInLeftBig {
+  --animate-duration: 2s;
+}
